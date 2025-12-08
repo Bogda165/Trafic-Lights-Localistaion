@@ -1,0 +1,7 @@
+../yolo_dataset
+../wandb
+../runs
+./results_original
+../archive
+../idea
+../.venv
