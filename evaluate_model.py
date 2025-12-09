@@ -285,7 +285,7 @@ def validate(model, loader, criterion):
     }
 
 # Visualize predictions function (copied from train_model.ipynb)
-def visualize_predictions(model, dataset, num_samples=5):
+def visualize_predictions(model, dataset, num_samples=20):
     model.eval()
     class_names = ['go', 'stop', 'warning', 'stopLeft', 'goForward', 'goLeft', 'warningLeft']
     colors = ['green', 'red', 'yellow', 'orange', 'cyan', 'blue', 'magenta']
